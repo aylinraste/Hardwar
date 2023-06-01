@@ -1,18 +1,11 @@
-Thu Jun  1 06:54:50 UTC 2023
-predictor.v:17: syntax error
-predictor.v:17: error: Incomprehensible case expression.
-predictor.v:18: syntax error
-predictor.v:18: error: Incomprehensible case expression.
-predictor.v:19: syntax error
-predictor.v:19: error: Incomprehensible case expression.
-predictor.v:20: syntax error
-predictor.v:20: error: Incomprehensible case expression.
-predictor.v:21: syntax error
-predictor.v:21: error: Incomprehensible case expression.
-predictor.v:22: syntax error
-predictor.v:22: error: Incomprehensible case expression.
-predictor.v:23: syntax error
-predictor.v:23: error: Incomprehensible case expression.
-predictor.v:24: syntax error
-predictor.v:24: error: Incomprehensible case expression.
+Thu Jun  1 07:00:28 UTC 2023
+predictor.v:17: error: Concatenation operand "'sd1" has indefinite width.
+predictor.v:18: error: Concatenation operand "'sd0" has indefinite width.
+predictor.v:19: error: Concatenation operand "'sd1" has indefinite width.
+predictor.v:20: error: Concatenation operand "'sd0" has indefinite width.
+predictor.v:21: error: Concatenation operand "'sd1" has indefinite width.
+predictor.v:22: error: Concatenation operand "'sd0" has indefinite width.
+predictor.v:23: error: Concatenation operand "'sd1" has indefinite width.
+predictor.v:24: error: Concatenation operand "'sd0" has indefinite width.
+8 error(s) during elaboration.
 An error occurred when opening .vcd file '.tmp.vcd'
