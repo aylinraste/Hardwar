@@ -24,10 +24,9 @@ module predictor (
         {1'b0, 2'b00} : y <= STRONG_NOT_TAKEN;
         default: y <= STRONG_TAKEN;
       endcase
-
     end
     if (request) begin
-      prediction <= y[0];
+      prediction <= y[1];
     end
   end
 
