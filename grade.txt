@@ -1,4 +1,4 @@
-Thu Jun  1 07:13:28 UTC 2023
-Test 'predictor' failed for src file 'predictor.v'
-src file 'predictor.v': 0/1 tests passed
+Thu Jun  1 07:16:21 UTC 2023
+Test 'predictor' passed for src file 'predictor.v'
+src file 'predictor.v': 1/1 tests passed
 
