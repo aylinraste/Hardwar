@@ -6,8 +6,8 @@ module predictor (
     output reg  prediction
 );
 
-  reg [1:0] y = 0;
   parameter [1:0] STRONG_TAKEN = 3, WEAK_TAKEN = 2, WEAK_NOT_TAKEN = 1, STRONG_NOT_TAKEN = 0;
+  reg [1:0] y = STRONG_TAKEN;
 
   always @(posedge clk) begin
     if (result) begin
