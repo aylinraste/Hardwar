@@ -14,19 +14,19 @@ module predictor (
       case ({
         taken, y
       })
-        {1, STRONG_TAKEN} : y = STRONG_TAKEN;
-        {0, STRONG_TAKEN} : y = WEAK_TAKEN;
-        {1, WEAK_TAKEN} : y = STRONG_TAKEN;
-        {0, WEAK_TAKEN} : y = WEAK_NOT_TAKEN;
-        {1, WEAK_NOT_TAKEN} : y = WEAK_TAKEN;
-        {0, WEAK_NOT_TAKEN} : y = STRONG_NOT_TAKEN;
-        {1, STRONG_NOT_TAKEN} : y = WEAK_NOT_TAKEN;
-        {0, STRONG_NOT_TAKEN} : y = STRONG_NOT_TAKEN;
-        default: y = 0;
+        {1, STRONG_TAKEN} : y <= STRONG_TAKEN;
+        {0, STRONG_TAKEN} : y <= WEAK_TAKEN;
+        {1, WEAK_TAKEN} : y <= STRONG_TAKEN;
+        {0, WEAK_TAKEN} : y <= WEAK_NOT_TAKEN;
+        {1, WEAK_NOT_TAKEN} : y <= WEAK_TAKEN;
+        {0, WEAK_NOT_TAKEN} : y <= STRONG_NOT_TAKEN;
+        {1, STRONG_NOT_TAKEN} : y <= WEAK_NOT_TAKEN;
+        {0, STRONG_NOT_TAKEN} : y <= STRONG_NOT_TAKEN;
+        default: y <= 0;
       endcase
     end
     if (request) begin
-      prediction = y[0];
+      prediction <= y[0];
     end
   end
 
