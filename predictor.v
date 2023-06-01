@@ -7,7 +7,7 @@ module predictor (
 );
 
   reg [1:0] y = 0;
-  parameter [2:0] STRONG_TAKEN = 3, WEAK_TAKEN = 2, WEAK_NOT_TAKEN = 1, STRONG_NOT_TAKEN = 0;
+  parameter [1:0] STRONG_TAKEN = 3, WEAK_TAKEN = 2, WEAK_NOT_TAKEN = 1, STRONG_NOT_TAKEN = 0;
 
   always @(posedge clk or result or request) begin
     if (result) begin
