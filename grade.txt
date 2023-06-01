@@ -1,4 +1,4 @@
-Thu Jun  1 07:07:04 UTC 2023
-predictor.v:29: error: can not select part of scalar: taken
-1 error(s) during elaboration.
-An error occurred when opening .vcd file '.tmp.vcd'
+Thu Jun  1 07:09:38 UTC 2023
+Test 'predictor' failed for src file 'predictor.v'
+src file 'predictor.v': 0/1 tests passed
+
