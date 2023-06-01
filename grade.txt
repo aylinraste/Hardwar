@@ -1,4 +1,18 @@
-Thu Jun  1 06:43:19 UTC 2023
-Test 'predictor' failed for src file 'predictor.v'
-src file 'predictor.v': 0/1 tests passed
-
+Thu Jun  1 06:52:46 UTC 2023
+predictor.v:17: syntax error
+predictor.v:17: error: Incomprehensible case expression.
+predictor.v:18: syntax error
+predictor.v:18: error: Incomprehensible case expression.
+predictor.v:19: syntax error
+predictor.v:19: error: Incomprehensible case expression.
+predictor.v:20: syntax error
+predictor.v:20: error: Incomprehensible case expression.
+predictor.v:21: syntax error
+predictor.v:21: error: Incomprehensible case expression.
+predictor.v:22: syntax error
+predictor.v:22: error: Incomprehensible case expression.
+predictor.v:23: syntax error
+predictor.v:23: error: Incomprehensible case expression.
+predictor.v:24: syntax error
+predictor.v:24: error: Incomprehensible case expression.
+An error occurred when opening .vcd file '.tmp.vcd'
